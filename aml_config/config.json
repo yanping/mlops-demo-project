@@ -1,0 +1,18 @@
+{
+  "subscription_id": "5f2695c3-533d-412f-8d0a-4aed3d03e80f",
+  "resource_group": "E2DSPRGD02",
+  "workspace_name": "USCLDDSPMLD02",
+  "location": "eastus2",
+  "experiment_name": "devopsmltestv2",
+  "model_name": "sklearn_regression_mod.pkl",
+  "model_description": "Regression model for diabetes dataset",
+  "model_tags": {
+    "area": "diabetes",
+    "type": "regression"
+  },
+  "image_name": "diabetesmodelscorev2",
+  "image_description": "Image with ridge regression model",
+  "aks_name": "USCLDDSPAKSD02",
+  "aks_namespace":  "default",
+  "aks_service_name": "aks-ml-testv2"
+}
